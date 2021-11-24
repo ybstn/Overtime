@@ -39,5 +39,5 @@ Overtime - web версия (.Net core/React) приложения android дл�
 
 Главная страница (FHD)
 <p align="center">
-<img width="20%" src="images/MainPage(FHD).png"/>
+<img width="40%" src="images/MainPage(FHD).png"/>
 </p>
