@@ -7,7 +7,7 @@ Overtime - web версия (.Net core/React) приложения android дл�
 <img width="20%" src="images/MainPage(SamsungA5).png"/>
 </p>
 
-Страница редактирования выбранного дня
+Страница редактирования выбранного дня 
 <p align="center">
 <img width="20%" src="images/EditDayPage(SamsungA5).png"/>
 </p>
