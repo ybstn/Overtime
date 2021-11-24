@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppUsers>
+  <user>
+    <id>195f0c89-0eb6-4454-9794-f48b813eb700</id>
+    <fullname>test</fullname>
+    <PasswordHash>478XyjhABNyeBfLj6K+/+h62qZydBnUIdqIzyS9MinaVeqgzCi+8kwCcPo6ZvsL0dRIZpJg55663rv9ZSUmF6Q==</PasswordHash>
+    <PasswordSalt>/vwDv0iTzNlVR2N61yAg7uejdaccBqypgxiifWF9s3G6MWnYTRSWFhliEuW48DoUdfcUUkm6ymda1QhWOKb+ONkxPU5tQ1xU0DdP0Kmrk3HB1HFx9J5JfNKA9kx0StS5b4eEFyUeGZJdu9OjAwRi2kBCFxEFlP1DbKSIy+wRZ3g=</PasswordSalt>
+    <RefreshTokens>
+      <Rtoken>
+        <id>eb23cae6-46eb-4451-928e-c978c2e795ff</id>
+        <Token>pJEAZahno/DTLTYfV5z2Z3fcbwGXysbPVkjZX697Rq60WyGwZxRzPR4bk1RNhXlpluhr/sJv/SP9pFXthnQxMg==</Token>
+        <Expires>2021-11-24 15:39:08.631127</Expires>
+        <Created>2021-11-24 15:38:08.631133</Created>
+        <CreatedByIp>0.0.0.1</CreatedByIp>
+        <Revoked>0001-01-01 00:00:00.000000</Revoked>
+        <RevokedByIp />
+        <ReplacedByToken />
+      </Rtoken>
+    </RefreshTokens>
+  </user>
+</AppUsers>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<AppUsers>
+    <user>
+        <id></id>
+        <fullname></fullname>
+        <PasswordHash></PasswordHash>
+        <PasswordSalt></PasswordSalt>
+        <RefreshTokens>
+            <token>
+                <id></id>
+                <Token></Token>
+                <Expires></Expires>
+                <Created></Created>
+                <CreatedByIp></CreatedByIp>
+                <Revoked></Revoked>
+                <RevokedByIp></RevokedByIp>
+                <ReplacedByToken></ReplacedByToken>
+            </token>
+        </RefreshTokens>
+    </user>
+</AppUsers>

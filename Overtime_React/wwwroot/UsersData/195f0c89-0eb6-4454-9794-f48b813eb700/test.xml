@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Overtime>
+  <days />
+  <salaryList />
+  <settings OvertimeHourStart="8" HourMinuteRound="30" OvertimeHourCost="400" HolidayNightCost="3000" />
+</Overtime>

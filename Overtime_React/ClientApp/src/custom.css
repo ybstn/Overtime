@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto-Bold'), url(./Fonts/Roboto-Bold.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto-Medium'), url(./Fonts/Roboto-Medium.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto-Regular'), url(./Fonts/Roboto-Regular.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto-Light'), url(./Fonts/Roboto-Light.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto-Thin'), url(./Fonts/Roboto-Thin.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 100;
+}
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+body {
+    background-color: black;
+    color:white;
+    font-family: Roboto;
+}
+.spinner {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: all;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,1);
+}
+
+.spinnerText {
+    pointer-events: none;
+    margin-top: 0.5vw;
+    padding: 0.5vw;
+    color: white;
+    background-color: rgba(0,0,0,1);
+}
+.TextSize {
+    font-size: 2rem;
+}
+
+
+.TimePicker {
+    color: white;
+    background-color: lightgrey;
+} .textinputColor {
+    color:black;
+    background-color:white;
+} .modal-body {
+    background-color: black;
+    color: white;
+} .MainPageButtonsWrapper {
+    height:130px;
+    
+} .MenuButton {
+    height: 10vh;
+    width: 7vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 35%;
+
+} .buttngroup {
+    float: right;
+} .btnBack {
+    background-image: url("/backWhite.png");
+} .RecordRow {
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: #343a40;
+    font-size: 2rem;
+} .RecordsClientInfoText {
+    font-size: 2rem;
+} .ControlsPanel {
+    height: 10vh;
+    background-color: rgba(64,64,64,0.8);
+    border: solid 1px black;
+    border-radius: 2px 2px 0px 0px;
+    z-index: 99;
+} .ControlsPanelListComensator {
+    width: 100%;
+    height: 10vh;
+} .btnControlsPanel, .btnControlsPanelTwoButt {
+    width: 50%;
+    height: 7vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 12%;
+} .btnControlsPanelTwoButt {
+    background-size: 9%;
+} .btnEdit {
+    background-image: url("/Edit.png");
+} .btnDelete {
+    background-image: url("/Delete.png");
+} .btnDownload {
+    background-image: url("/download-white.png");
+} @media screen and (min-width:3000px) {
+    .MenuButton {
+        height: 10vh;
+        width: 6vw;
+    }
+    .MainPageButtonsWrapper {
+        height: 14.4vh;
+    }
+    .RecordRow, .TextSize{
+        font-size: 3rem;
+    }
+    .RecordsClientInfoText {
+        font-size: 4rem;
+    }
+} @media screen and (max-width:1360px) {
+    .RecordRow, .TextSize{
+        font-size: 1.5rem;
+    }
+} @media screen and (max-width:1024px) {
+    .RecordRow {
+        font-size: 1.5rem;
+    }
+} @media screen and (max-width:800px) {
+    .RecordRow, .TextSize {
+        font-size: 2rem;
+    }
+    .MenuButton {
+        height: 7vh;
+        width: 11vw;
+        background-size: 50%;
+    }
+    .ToggbuttRow
+    {
+        height: 69% !important;
+    }
+    .btnControlsPanel {
+        background-size: 33%;
+    }
+
+    .btnControlsPanelTwoButt {
+        background-size: 27%;
+    }
+} @media screen and (max-width:455px) {
+    .RecordRow, .TextSize{
+        font-size: 1rem;
+    }
+    .MenuButton {
+        height: 7vh;
+        width: 87%;
+        background-size: 70%;
+    }
+    .ToggbuttRow {
+        height: 50% !important;
+    }
+    .RecordsClientInfoText {
+        font-size: 1rem;
+    }
+    .btnControlsPanel {
+        width: 100%;
+        height: 7vh;
+        background-size: 33%;
+    }
+
+    .btnControlsPanelTwoButt {
+        background-size: 37%;
+    }
+} @media screen and (max-height:455px) {
+    .RecordRow, .TextSize {
+        font-size: 1rem;
+    }
+    .RecordsClientInfoText {
+        font-size: 1rem;
+    }
+    .MainPageButtonsWrapper {
+        height: 82px;
+    }
+    .MenuButton {
+        height: 14vh;
+        background-size: 50%;
+    }
+
+    .btnControlsPanel, .btnControlsPanelTwoButt {
+        height: 12vh;
+        background-size: 24%;
+    }
+
+    .btnControlsPanelTwoButt {
+        background-size: 16%;
+    }
+    .ControlsPanel {
+        height: 17vh;
+    }
+        .ControlsPanelListComensator {
+        height: 17vh;
+    }
+
+}
